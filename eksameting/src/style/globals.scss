@@ -1,0 +1,14 @@
+@import "@/style/color-variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+body,
+html,
+main {
+  display: flex;
+  background-color: $scendoreay;
+}
