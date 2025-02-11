@@ -1,13 +1,12 @@
-import OverAllButton from "@/components/Button.jsx";
+import OverAllButton from "@/components/Button/index.jsx";
 import Image from "next/image";
-import splash from "@/assets/images/splash-image.jpg"
+import splash from "@/assets/images/splash-image.jpg";
 
 export default function WelcomePage() {
   return (
     <>
-      <OverAllButton />
       <Image
-        src= {splash}
+        src={splash}
         alt="welcome screen"
         quality={100}
         fill
@@ -17,7 +16,7 @@ export default function WelcomePage() {
           objectFit: "cover",
           objectPosition: "center",
           layout: "fill",
-        //   vvv makes the image go back a step.
+          //   vvv makes the image go back a step.
           zIndex: "-1",
         }}
       />

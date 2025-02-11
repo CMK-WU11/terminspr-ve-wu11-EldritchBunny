@@ -1,4 +1,4 @@
-import "@/app/style/globals.scss";
+import "@/style/globals.scss";
 
 export default function CalenderDefault() {
   return (
