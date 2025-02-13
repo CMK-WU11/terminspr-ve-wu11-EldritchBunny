@@ -12,3 +12,9 @@ main {
   display: flex;
   background-color: $scendoreay;
 }
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}

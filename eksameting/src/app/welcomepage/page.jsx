@@ -1,11 +1,21 @@
 import OverAllButton from "@/components/Button/index.jsx";
 import Image from "next/image";
 import splash from "@/assets/images/splash-image.jpg";
+import Link from "next/link";
+
+import "./welcomepage.scss"
+ 
 
 export default function WelcomePage() {
   return (
     <>
+          <div className="box-sur">
+        <Link href="/activities" className="login-b">
+          log on in
+        </Link>
+      </div>
       <Image
+
         src={splash}
         alt="welcome screen"
         quality={100}

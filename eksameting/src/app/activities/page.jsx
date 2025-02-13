@@ -2,16 +2,16 @@ export default async function ActivitiesPage() {
   let data;
 
   try {
-    let ActivitiesPage = await fetch("http://localhost:4000/api/v1/activities");
+    const ActivitiesPage = await fetch("http://localhost:4000/api/v1/activities");
     data = await response.json();
-  } catch (error) {
-    console.error("site is running into an issue");
-  }
+  } catch (error) {}
 
-  return (<>
-        <ul><li>{data.map}</li></ul>
-  
-  
-  
-  </>);
+  return (
+    <>
+      <ul>
+        
+        
+      </ul>
+    </>
+  );
 }
